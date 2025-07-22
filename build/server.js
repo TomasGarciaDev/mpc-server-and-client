@@ -16,6 +16,24 @@ const server = new mcp_js_1.McpServer({
         prompts: {},
     },
 });
+server.resource("users", "users://all", {
+    description: "Get all users data from the database",
+    title: "Users",
+    mimeType: "application/json",
+}, async (uri) => {
+    const users = await import("./data/users.json", {
+        with: { type: "json" },
+    }).then((m) => m.default);
+    return {
+        contents: [
+            {
+                uri: uri.href,
+                text: JSON.stringify(users),
+                mimeType: "application/json",
+            },
+        ],
+    };
+});
 server.tool("create-user", "Create a new user in the database", {
     name: zod_1.default.string(),
     email: zod_1.default.string(),
