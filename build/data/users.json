@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice@test.com",
+        "address": "123 Maple St, Springfield, IL",
+        "phone": "555-1234"
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob@test.com",
+        "address": "456 Oak St, Springfield, IL",
+        "phone": "555-5678"
+    },
+    {
+        "id": 3,
+        "name": "Charlie Brown",
+        "email": "charlie@test.com",
+        "address": "123 Main St, Omaha, NE",
+        "phone": "555-8765"
+    },
+    {
+        "id": 4,
+        "name": "Tomas",
+        "email": "tomasgarcia@gmail.com",
+        "address": "123 My Street",
+        "phone": "123-456-7890"
+    },
+    {
+        "id": 5,
+        "name": "John Doe",
+        "email": "user@example.com",
+        "address": "123 Main St, Anytown, USA",
+        "phone": "123-456-7890"
+    },
+    {
+        "id": 6,
+        "name": "Kyle",
+        "email": "test@test.com",
+        "address": "1234 Main St",
+        "phone": "234345345"
+    }
+]

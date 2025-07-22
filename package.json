@@ -5,7 +5,7 @@
   "main": "src/server.ts",
   "scripts": {
     "server:build:": "tsx",
-    "server:build:watch": "tsx --watch",
+    "server:build:watch": "tsc --watch",
     "server:dev": "tsx src/server.ts",
     "server:inspect": "set DANGEROUSLY_OMIT_AUTH=true && npx @modelcontextprotocol/inspector npm run server:dev"
   },
@@ -19,6 +19,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.16.0"
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "zod": "^3.25.76"
   }
 }
