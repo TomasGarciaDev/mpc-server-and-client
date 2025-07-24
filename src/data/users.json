@@ -57,9 +57,15 @@
   },
   {
     "id": 9,
-    "name": "Bob",
-    "email": "bob@email.com",
-    "address": "Oak Street 123",
-    "phone": "0987654321"
+    "firstName": "Eleanor",
+    "lastName": "Vance",
+    "email": "eleanor.vance78@example.com",
+    "address": {
+      "street": "481 Oak Avenue",
+      "city": "Anytown",
+      "state": "CA",
+      "zipCode": "91234"
+    },
+    "phoneNumber": "555-234-5678"
   }
 ]
