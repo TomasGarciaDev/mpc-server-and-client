@@ -54,5 +54,12 @@
     "email": "miguel@email.com",
     "address": "123 Street Address",
     "phone": "0987654321"
+  },
+  {
+    "id": 9,
+    "name": "Bob",
+    "email": "bob@email.com",
+    "address": "Oak Street 123",
+    "phone": "0987654321"
   }
 ]
